@@ -3,11 +3,12 @@ body{
 }
 p{
     color: darkblue;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
 
 /*clases*/
 .body2{
     background-color: cadetblue;
+    text-align: center;
 }

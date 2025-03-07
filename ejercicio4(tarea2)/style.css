@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(43, 165, 226);
+    text-align: center;
+}
+div{
+    background-color: rgba(43, 226, 226, 0.763);
+    padding: 20px;
+}
+#parr1{
+    font-size: 24px; 
+    font-weight: bold;
+    color:bisque ; 
+    background-color: rgb(116, 85, 146);
+  }
+#parr2{
+    font-size: 24px; 
+    font-weight: bold; 
+    color:#7e2f28 ; 
+    background-color: rgb(49, 149, 169);
+  }
+  #parr3{
+    font-size: 24px; 
+    font-weight: bold; 
+    color:#7e2f28 ; 
+    background-color: rgb(43, 226, 49);
+  }
+
