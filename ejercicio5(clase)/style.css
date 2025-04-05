@@ -1,0 +1,11 @@
+/*
+Selector de body y de p color tamaño font
+*/
+
+body{
+    background-color: rgb(55, 155, 155);
+}
+p{
+    font-size: 40px; 
+    color:bisque ; 
+}

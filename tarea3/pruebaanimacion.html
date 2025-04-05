@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Seed - Animación</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .text-container {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #228B22; /* Color verde naturaleza */
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .letter {
+      transition: transform 1.5s, opacity 1.5s, color 1.5s;
+      cursor: pointer;
+    }
+
+    .letter:hover {
+      transform: scale(1.5) rotate(20deg);
+      opacity: 0;
+    }
+
+    .letter:hover::after {
+      content: "🌿"; /* La letra desaparece y aparece una hoja */
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Seed - Aurora</h1>
+  <div class="text-container">
+    <span class="letter">Y</span>
+    <span class="letter">O</span>
+    <span class="letter">U</span>
+    <span class="letter"> </span>
+    <span class="letter">C</span>
+    <span class="letter">A</span>
+    <span class="letter">N</span>
+    <span class="letter">'</span>
+    <span class="letter">T</span>
+    <span class="letter"> </span>
+    <span class="letter">E</span>
+    <span class="letter">A</span>
+    <span class="letter">T</span>
+    <span class="letter"> </span>
+    <span class="letter">M</span>
+    <span class="letter">O</span>
+    <span class="letter">N</span>
+    <span class="letter">E</span>
+    <span class="letter">Y</span>
+  </div>
+</body>
+</html>
